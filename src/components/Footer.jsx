@@ -56,7 +56,7 @@ const Footer = () => (
 
         <div className="footer__item_redes">
           <a
-            href="https://api.whatsapp.com/send?phone=573125298438"
+            href="https://api.whatsapp.com/send?phone=573188780695"
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp"
@@ -64,7 +64,7 @@ const Footer = () => (
             <i className="fab fa-whatsapp"></i>
           </a>
           <a
-            href="https://www.facebook.com/Asociaci%C3%B3n-Asodamvi-857217857947871/"
+            href="https://www.facebook.com/fundaciondesarrollosocial2007/"
             target="_blank"
             rel="noopener noreferrer"
             className="facebook"
@@ -72,7 +72,7 @@ const Footer = () => (
             <i className="fab fa-facebook-f"></i>
           </a>
           <a
-            href="https://m.me/857217857947871"
+            href="https://m.me/fundaciondesarrollosocial2007"
             target="_blank"
             rel="noopener noreferrer"
             className="messenger"
