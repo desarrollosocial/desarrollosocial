@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { HashRouter, Switch, Route } from "react-router-dom"
 
 // Containers
 import Layout from '../components/Layout'
@@ -8,7 +8,7 @@ import Galeria from '../containers/Galeria'
 import Documentos from '../containers/Documentos'
 
 const App = () => (
-    <BrowserRouter basename="/">
+    <HashRouter basename="/">
         <Layout>
             <Switch>
                 <Route exact path="/" component={Inicio}/>
@@ -17,7 +17,7 @@ const App = () => (
                 <Route component={Inicio}/>
             </Switch>
         </Layout>
-    </BrowserRouter>
+    </HashRouter>
 )
 
 export default App;
