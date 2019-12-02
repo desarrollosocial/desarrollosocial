@@ -1,2 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
+User-Agent: *
+Disallow: 
+Allow: /www.fundaciondesarrollosocial.com
+
+Sitemap: https://www.fundaciondesarrollosocial.com/sitemap.xml
